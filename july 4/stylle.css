@@ -1,0 +1,8 @@
+
+/* multiple selector*/
+#myheading,
+.para,
+a{
+
+color: red
+}

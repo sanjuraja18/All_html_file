@@ -1,0 +1,28 @@
+.header {
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: tan;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .hero nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+#click {
+    display: none
+}
+label{
+    margin-right:30px;
+    display: none;
+}

@@ -1,0 +1,5 @@
+wap to print your name nad DOB
+using two scprate cout 
+
+
+to give output file a name we will syntex g++ fillname.cpp -outp

@@ -1,0 +1,35 @@
+label::after{
+    content: '*';
+    color: red;
+    padding:3px;
+}
+
+label::before{
+    content: '*';
+    color: red;
+    padding:3px;
+}
+
+/*li:nth-child(3){
+    background-color: yellow;
+}*/
+
+/*li:nth-child(6){
+    background-color: green;
+    color: wheat;
+}*/
+
+/*li:nth-child(4n){
+    background-color: pink;
+}*/
+
+/*li:nth-child(odd){
+    background-color: pink;
+    color: wheat;
+}*/
+
+li:nth-child(even){
+    background-color: pink;
+    color: wheat;
+}
+

@@ -1,0 +1,46 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+    /*shorthand*/
+    animation: example 2s infinite ease-in-out;
+    transition-property: transform;
+    transition-duration: 2s;
+   /* transition-timing-function: ease;
+    transition-delay: 2s;
+    transition: all 2s ease-in-out;
+    margin: 100px;*/
+}
+
+/*@keyframes example{
+    form{
+        background-color: red;
+        width: 100px;
+    }
+
+    to{
+        background-color: yellow;
+        width: 600px;
+
+    }
+}*/
+
+.box:hover{
+ /* transform: translateX(100px);
+  transform: translatey(100px);
+  transform: translatey(100px, 100px);
+  transform: scaleX(2);
+  transform: scaleY(2);
+  transform: scale(2, 3);
+  transform: rotate(360deg);
+  transform: skewX(30deg);*/
+  transform: skewY(60deg);
+ /* transform: skew(60deg, 120deg);*/
+  background-color: yellow;
+}

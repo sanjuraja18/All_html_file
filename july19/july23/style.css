@@ -1,0 +1,33 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: example 3s infinite ease-in-out;
+}
+
+@keyframes example{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 100px;
+    }
+
+    50% {
+        background-color: blue;
+        top: 100px;
+        left: 100px;
+    }
+   
+    75%{
+        background-color: green;
+        top: 100px;
+        left: 0px;
+
+    }
+    100%{
+        background-color: red;
+        top: 0px;
+        left:0px;
+    }
+}

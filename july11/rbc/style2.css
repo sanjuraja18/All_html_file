@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: antiquewhite;
+}
+
+.hero .navbar h1 {
+    color:#ff7200;
+    margin-left: 40px;
+}
+
+.hero .navbar h1 span {
+    color: blue;
+}
+
+.hero .navbar nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 11px;
+    margin-right: 50px;
+}
+
+.hero .navbar nav ul li a {
+    color: azure;
+    font-size: 25px;
+    text-decoration: none;
+}

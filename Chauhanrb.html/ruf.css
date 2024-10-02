@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.img {
+background-image: url("/img.jpg");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+.p {
+background-color: aliceblue;
+border-width: 3px;
+border-style: double;
+border-color: black;
+margin: 20px;
+padding: 20px;
+width: 30%;
+height: 500px;
+float: right;
+
+
+
+}
+

@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(37, 11, 155);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(243, 236, 236);
+  font-size: 55px;
+}
+
+p {
+  color: yellow;
+  font-size: 35px;
+}/*# sourceMappingURL=style.css.map */

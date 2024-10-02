@@ -1,0 +1,21 @@
+p{
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+h1{
+    /* background-color:*/
+    background-color: rgb(22,33,555);
+    /*Alph(transparency) 0 -1 */
+}
+header{
+    height: 50vh;
+    background-image:url(/s2.jpg);
+}

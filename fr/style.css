@@ -1,0 +1,24 @@
+.container{
+    background-color: lightblue;
+    height: 500px;
+    display: grid;
+    /* grid-template-columns: 200px 200px; */
+   /* grid-template-columns: auto auto auto auto;*/
+    grid-template-columns: repeat(4,1fr);
+    /*column-gap: 10px;
+    row-gap: 10px;*/
+    gap: 20px;
+   /* justify-content: center;*/
+}
+.item{
+    background-color: #ff7200;
+    border: 3px solid black;
+}
+
+.item1{
+    grid-row: 1 / 4;
+}
+
+.item2{
+    grid-row: 2 / 4;
+}

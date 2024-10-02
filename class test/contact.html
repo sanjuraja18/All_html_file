@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    
+    <div style="width:60%;margin:0 auto;">
+        <form action="{% url 'saveenq' %}" method="post" align="center">
+            <div class="form-group">
+                <h1>Contact Us</h1>
+                <label>Enter Your Name</label>
+                <input type="test" name="name" class="form-control" required="true"/>
+            </div><br/>
+            <div>
+                <label>Select your gender</label>
+            
+                <input type="radio" name="gender" value="male"/>Male
+                <input type="radio" name="gender" value="female"/>Female
+                <input type="radio" name="gender" value="other"/>Other
+            </div><br/>
+            <div class="form-group">
+                <label>Enter address</label>
+                <textarea name="address" class="form-control"></textarea>
+            </div><br/>
+            <div class="form-group">
+                <label>Enter Contact No</label>
+                <input type="number" name="contactno" class="form-control" required="true"/>
+            </div><br/>
+            <div class="form-group">
+                <label>Enter Email Address</label>
+                <input type="email" name="emailaddress" class="form-control" required="true"/>
+            </div><br/>
+            <div class="form-group">
+                <label>Enter Enquiry Text</label>
+                <textarea name="enquirytext" class="form-control"></textarea>
+            </div><br/>
+            <input type="submit" value="submit" class="btn btn-info"/>
+        </form><br/>
+</body>
+</html>

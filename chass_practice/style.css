@@ -1,0 +1,30 @@
+
+#outer{
+    width: 1000px;
+    height: 1000px;
+    border: solid 1px black;
+    position: absolute;
+    z-index: -1;
+    
+}
+.box{
+    width: 1000px;
+    height: 125px;
+    background-color: pink;
+
+}
+.b{
+    width: 125px;
+    height: 125px;
+    background-color: black;
+    float: left;
+    background-color: rgb(109, 87, 91);
+}
+.w{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    float: left;
+    background-color: rgb(227, 227, 201);
+
+}
